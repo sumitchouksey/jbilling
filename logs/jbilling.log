@@ -1,0 +1,68 @@
+2019-08-03 18:19:50,385 2     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2019-08-03 18:19:50,445 62    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2019-08-03 18:19:51,675 1292  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2019-08-03 18:19:51,678 1295  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2019-08-03 18:19:52,673 2290  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-03 18:19:52,746 2363  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2019-08-03 18:19:58,943 8560  INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2019-08-03 18:19:58,944 8561  INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2019-08-03 18:20:01,141 10758 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2019-08-03 18:20:02,648 12265 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2019-08-03 18:20:02,689 12306 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2019-08-03 18:20:02,835 12452 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kfsxa4oab77c1707q9j|5112fd33, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsxa4oab77c1707q9j|5112fd33, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-08-03 18:20:06,673 16290 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: /root/.grails/2.4.3/projects/jbilling-community-4.1.1/resources/jbilling.properties
+2019-08-03 18:20:06,674 16291 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: /home/summu/dctecs/aug-2019/jbilling-community-4.1.1/resources/
+2019-08-03 18:20:15,550 25167 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-03 18:20:15,561 25178 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data/localhost)
+2019-08-03 18:20:15,561 25178 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data/localhost
+2019-08-03 18:20:15,580 25197 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data/localhost/kr-store/state
+2019-08-03 18:20:15,615 25232 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2019-08-03 18:20:15,714 25331 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2019-08-03 18:20:15,714 25331 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2019-08-03 18:20:15,929 25546 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data/localhost/kr-store/data
+2019-08-03 18:20:15,966 25583 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://localhost:61616
+2019-08-03 18:20:15,966 25583 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2019-08-03 18:20:15,970 25587 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2019-08-03 18:20:15,971 25588 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:summu-34457-1564836615777-0:0) started
+2019-08-03 18:20:18,758 28375 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2019-08-03 18:20:19,052 28669 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2019-08-03 18:20:19,053 28670 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2019-08-03 18:20:19,054 28671 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2019-08-03 18:20:19,685 29302 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2019-08-03 18:20:19,861 29478 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2019-08-03 18:20:20,009 29626 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2019-08-03 18:20:20,095 29712 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2019-08-03 18:20:20,103 29720 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2019-08-03 18:20:20,105 29722 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2019-08-03 18:20:20,107 29724 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2019-08-03 18:20:20,109 29726 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2019-08-03 18:20:20,154 29771 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2019-08-03 18:20:20,178 29795 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2019-08-03 18:20:20,184 29801 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2019-08-03 18:20:20,184 29801 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2019-08-03 18:20:20,203 29820 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2019-08-03 18:20:20,203 29820 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2019-08-03 18:20:20,203 29820 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2019-08-03 18:20:20,230 29847 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2019-08-03 18:20:21,255 30872 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2019-08-03 18:20:23,057 32674 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2019-08-03 18:20:23,060 32677 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2019-08-03 18:20:23,074 32691 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-03 18:20:23,074 32691 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2019-08-03 18:20:23,075 32692 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2019-08-03 18:20:23,076 32693 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-08-03 18:20:23,076 32693 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2019-08-03 18:20:23,076 32693 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2019-08-03 18:20:23,076 32693 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-08-03 18:20:23,866 33483 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2019-08-03 18:20:25,064 34681 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2019-08-03 18:20:25,161 34778 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2019-08-03 18:48:05,724 1695341 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + currency
+2019-08-03 18:48:06,203 1695820 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + country
